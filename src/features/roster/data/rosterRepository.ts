@@ -1,0 +1,1 @@
+import * as api from '../../../core/mocks/fakeApi'; import type {ShiftCode} from '../domain/entities'; export const rosterRepository={get:api.apiGetRoster,staff:api.apiGetStaff,wards:api.apiGetWards,putCell:api.apiPutCell,publish:api.apiPublish}; export type Repository=typeof rosterRepository;

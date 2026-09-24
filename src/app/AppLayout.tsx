@@ -1,0 +1,1 @@
+import {Link,Outlet} from 'react-router-dom'; export function AppLayout(){return <><header><strong>RosterDesk</strong><nav><Link to="/roster">Roster</Link><Link to="/swaps">Swaps</Link><Link to="/publish">Publish</Link></nav></header><main><Outlet/></main></>}
